@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        "circular-we": ["circular-web", "sans-serif"],
+        "circular-web": ["circular-web", "sans-serif"],
         general: ["general", "sans-serif"],
         "robert-medium": ["robert-medium", "sans-serif"],
         zentry: ["zentry", "sans-serif"],
