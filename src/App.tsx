@@ -3,6 +3,7 @@ import {
   FeaturesSection,
   HeroSection,
   NavBarSection,
+  StorySection,
 } from "./components";
 
 export default function App() {
@@ -12,6 +13,7 @@ export default function App() {
       <HeroSection />
       <AboutSection />
       <FeaturesSection />
+      <StorySection />
     </main>
   );
 }

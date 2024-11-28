@@ -3,3 +3,4 @@ export * from "./AnimatedTitle.section";
 export * from "./Features.section";
 export * from "./Hero.section";
 export * from "./NavBar.section";
+export * from "./Story.section";
