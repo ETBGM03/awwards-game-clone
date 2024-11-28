@@ -1,4 +1,9 @@
-import { AboutSection, HeroSection, NavBarSection } from "./components";
+import {
+  AboutSection,
+  FeaturesSection,
+  HeroSection,
+  NavBarSection,
+} from "./components";
 
 export default function App() {
   return (
@@ -6,6 +11,7 @@ export default function App() {
       <NavBarSection />
       <HeroSection />
       <AboutSection />
+      <FeaturesSection />
     </main>
   );
 }
