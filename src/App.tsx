@@ -4,6 +4,8 @@ import {
   HeroSection,
   NavBarSection,
   StorySection,
+  ContactSection,
+  FooterSection,
 } from "./components";
 
 export default function App() {
@@ -14,6 +16,8 @@ export default function App() {
       <AboutSection />
       <FeaturesSection />
       <StorySection />
+      <ContactSection />
+      <FooterSection />
     </main>
   );
 }
