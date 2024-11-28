@@ -2,6 +2,8 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 
+import { AnimatedTitleSection } from "./AnimatedTitle.section";
+
 gsap.registerPlugin(ScrollTrigger);
 
 export function AboutSection() {
@@ -31,9 +33,11 @@ export function AboutSection() {
         <h2 className="font-general uppercase text-black md:text-[10px] ">
           Welcome to Zentry
         </h2>
-        <div className="mt-5 text-center text-4xl uppercase leading-[0.8] md:text-[6rem]">
-          Disc<b>o</b>ver the world's <br /> l<b>a</b>rgest shared adventure
-        </div>
+
+        <AnimatedTitleSection
+          title="Disc<b>o</b>ver the world's <br /> l<b>a</b>rgest shared adventure"
+          containerClass="mt-5 !text-black text-center text-4xl uppercase leading-[0.8] md:text-[6rem]"
+        />
 
         <div className="about-subtext">
           <p>The game of Games begins-your life, now an epic MMORPG</p>
